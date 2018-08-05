@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ABQJuan.github.io/petFinder",
+  "homepage": "https://abqjuan.github.io/petFinder",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
