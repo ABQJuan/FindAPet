@@ -17,7 +17,7 @@ function fetchAnimals(e) {
   }
 
   fetchJsonp(
-    `http://api.petfinder.com/pet.find?format=json&key=18bea1af1ab27ef36dbd175f9a58b743&animal=${animal}&location=${zip}&callback=callback`,
+    `https://cors-anywhere.herokuapp.com/http://api.petfinder.com/pet.find?format=json&key=18bea1af1ab27ef36dbd175f9a58b743&animal=${animal}&location=${zip}&callback=callback`,
     {
       jsonpCallbackFunction: "callback"
     }
